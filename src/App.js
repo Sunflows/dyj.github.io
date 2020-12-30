@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+/*
+ * @Author: your name
+ * @Date: 2020-12-27 20:49:17
+ * @LastEditTime: 2020-12-28 08:38:30
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \react-zsgc\my-zsgc\src\App.js
+ */
 
+import './App.css';
+import RouterView from './routes'
+import routes from './routes/config'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <RouterView routes={routes}/>
     </div>
   );
 }

@@ -34,5 +34,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "antd": "^4.9.4",
+    "axios": "^0.21.1",
+    "mockjs": "^1.1.0",
+    "react-loadable": "^5.5.0",
+    "react-router-dom": "^5.2.0"
+  },
+  "proxy": "http://47.103.26.106:3002"
 }
